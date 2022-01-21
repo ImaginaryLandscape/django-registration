@@ -22,7 +22,6 @@ from django.contrib.auth import get_user_model
 from django.db import models, transaction
 from django.template.loader import render_to_string
 from django.utils.crypto import get_random_string
-from django.utils.encoding import python_2_unicode_compatible
 from django.utils.encoding import smart_str
 from django.utils import timezone
 from django.utils.translation import ugettext_lazy as _
@@ -141,7 +140,6 @@ class RegistrationManager(models.Manager):
             user.delete()
 
 
-@python_2_unicode_compatible
 class RegistrationProfile(models.Model):
     """
     A model which stores an activation key for use during user account
