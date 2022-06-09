@@ -1,7 +1,6 @@
-.. -*-restructuredtext-*-
-
-.. image:: https://travis-ci.org/ubernostrum/django-registration.svg?branch=2.x
-    :target: https://travis-ci.org/ubernostrum/django-registration
+=====================
+Django3 Registration
+=====================
 
 This is an extensible user-registration application for Django.  It
 was forked of the "2.x" branch of `this project
@@ -15,3 +14,7 @@ older approach to work under Python 3 and newer versions of Django.
 
 Full documentation is `available online
 <https://django-registration.readthedocs.io/>`_.
+
+Installation
+============
+    $ pip install django3-registration
